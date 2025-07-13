@@ -1,11 +1,9 @@
 {
   "version": 2,
-  "dgSpecHash": "WywXBEqifos=",
+  "dgSpecHash": "nYurDzgTMa8=",
   "success": true,
   "projectFilePath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
   "expectedPackageFiles": [
-    "C:\\Users\\ok\\.nuget\\packages\\devexpress.aspnetcore.projecttemplates\\25.1.3\\devexpress.aspnetcore.projecttemplates.25.1.3.nupkg.sha512",
-    "C:\\Users\\ok\\.nuget\\packages\\devexpress.dotnet.web.projecttemplates\\24.1.13\\devexpress.dotnet.web.projecttemplates.24.1.13.nupkg.sha512",
     "C:\\Users\\ok\\.nuget\\packages\\humanizer.core\\2.8.26\\humanizer.core.2.8.26.nupkg.sha512",
     "C:\\Users\\ok\\.nuget\\packages\\microsoft.csharp\\4.5.0\\microsoft.csharp.4.5.0.nupkg.sha512",
     "C:\\Users\\ok\\.nuget\\packages\\microsoft.data.sqlclient\\2.1.7\\microsoft.data.sqlclient.2.1.7.nupkg.sha512",

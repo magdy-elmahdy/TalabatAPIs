@@ -31,15 +31,14 @@
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "Talabat.APIs",
+              "Title": "Talabat.APIs.csproj",
               "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
               "RelativeDocumentMoniker": "Talabat.APIs\\Talabat.APIs.csproj",
-              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj*",
-              "RelativeToolTip": "Talabat.APIs\\Talabat.APIs.csproj*",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
+              "RelativeToolTip": "Talabat.APIs\\Talabat.APIs.csproj",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
-              "WhenOpened": "2025-07-13T10:49:19.866Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-13T10:49:19.866Z"
             },
             {
               "$type": "Document",
@@ -51,8 +50,7 @@
               "RelativeToolTip": "Talabat.Repository\\Data\\DataSeed\\products.json",
               "ViewState": "AQIAAG4AAAAAAAAAAAAswJAAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2025-07-09T20:28:46.343Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T20:28:46.343Z"
             },
             {
               "$type": "Document",
@@ -64,8 +62,7 @@
               "RelativeToolTip": "Talabat.Repository\\Data\\StoreContextSeed.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-07-09T19:46:21.22Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-07-09T19:46:21.22Z"
             },
             {
               "$type": "Document",
