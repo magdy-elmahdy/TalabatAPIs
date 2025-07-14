@@ -9,3 +9,4 @@ D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\T
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.sourcelink.json
