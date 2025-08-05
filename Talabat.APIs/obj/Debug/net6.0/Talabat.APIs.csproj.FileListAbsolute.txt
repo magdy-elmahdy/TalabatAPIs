@@ -103,3 +103,4 @@ D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\T
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.APIs\bin\Debug\net6.0\Humanizer.dll
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.APIs\bin\Debug\net6.0\Microsoft.EntityFrameworkCore.Design.dll
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.APIs\obj\Debug\net6.0\Talabat.APIs.MvcApplicationPartsAssemblyInfo.cs
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.APIs\obj\Debug\net6.0\Talabat.APIs.sourcelink.json

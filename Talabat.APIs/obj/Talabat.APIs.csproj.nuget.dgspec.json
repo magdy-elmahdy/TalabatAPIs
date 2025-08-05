@@ -55,14 +55,6 @@
         "net6.0": {
           "targetAlias": "net6.0",
           "dependencies": {
-            "DevExpress.AspNetCore.ProjectTemplates": {
-              "target": "Package",
-              "version": "[25.1.3, )"
-            },
-            "DevExpress.DotNet.Web.ProjectTemplates": {
-              "target": "Package",
-              "version": "[24.1.13, )"
-            },
             "Microsoft.EntityFrameworkCore.Tools": {
               "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
               "suppressParent": "All",
