@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
+using Talabat.Core.Spacifications;
 
 namespace Talabat.Core.Reposotories.Centext
 {
@@ -10,5 +11,8 @@ namespace Talabat.Core.Reposotories.Centext
     {
         Task<T?> getAsync(int Id);
         Task<IEnumerable<T>> getAllAsync();
+
+        Task<T?> getWithSpectAsync(ISpacifications<T> Spect);
+        Task<IEnumerable<T>> getAllWithSpectAsync(ISpacifications<T> Spect);
     }
 }

@@ -1,5 +1,7 @@
 using Microsoft.EntityFrameworkCore;
+using Talabat.APIs.Helprer;
 using Talabat.Core.Reposotories.Centext;
+using Talabat.Core.Spacifications;
 using Talabat.Repository;
 using Talabat.Repository.Data;
 
@@ -22,6 +24,8 @@ namespace Talabat.APIs
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
             builder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
+            builder.Services.AddAutoMapper(typeof(MappigProfiles));
+
 
 
             var app = builder.Build();

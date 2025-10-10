@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k13uJ316mXY=",
+  "dgSpecHash": "0320Oe8u62oyozaErdRjiHnrjf78gSYTu+UO7WPaGSLTvFeRN6nCyOy0RR6sGbMwelFXfehM3lbQByjtAy6Uhg==",
   "success": true,
-  "projectFilePath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.Core\\Talabat.Core.csproj",
+  "projectFilePath": "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
