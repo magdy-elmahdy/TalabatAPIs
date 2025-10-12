@@ -1926,8 +1926,7 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\ok\\.nuget\\packages\\": {},
-    "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages": {}
+    "C:\\Users\\ok\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
@@ -1938,12 +1937,8 @@
       "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
       "outputPath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Session 01\\Testing\\Talabat.G03.APIs\\Talabat.Repository\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files\\DevExpress 24.1\\Components\\Offline Packages"
-      ],
       "configFilePaths": [
         "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\DevExpress 24.1.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -1951,7 +1946,6 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
-        "C:\\Program Files\\DevExpress 24.1\\Components\\System\\Components\\Packages": {},
         "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
