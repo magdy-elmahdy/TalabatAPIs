@@ -46,7 +46,7 @@ namespace Talabat.APIs
                 logger.LogError(ex, "An Error has been occured during apply migration");
             }
 
-            // Configure the HTTP request pipeline.
+            // Configure the HTTP request pipeline Middlewares.
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
@@ -54,10 +54,9 @@ namespace Talabat.APIs
             }
             app.UseHttpsRedirection();
             app.UseAuthorization();
+            app.UseStaticFiles();
             app.MapControllers();
-            //fffffffffff
             app.Run();
-            //Test Commetngfgddg
         }
     }
 }

@@ -2532,19 +2532,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\H\\.nuget\\packages\\": {}
+    "C:\\Users\\ok\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
+      "projectUniqueName": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
       "projectName": "Talabat.APIs",
-      "projectPath": "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
-      "packagesPath": "C:\\Users\\H\\.nuget\\packages\\",
-      "outputPath": "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\obj\\",
+      "projectPath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.APIs\\Talabat.APIs.csproj",
+      "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
+      "outputPath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.APIs\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\H\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2552,14 +2552,15 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Program Files\\dotnet\\library-packs": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
           "projectReferences": {
-            "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj": {
-              "projectPath": "E:\\Backend-Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj"
+            "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\Talabat.Repository.csproj": {
+              "projectPath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\Talabat.Repository.csproj"
             }
           }
         }
@@ -2613,7 +2614,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202\\RuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.302\\RuntimeIdentifierGraph.json"
       }
     }
   }

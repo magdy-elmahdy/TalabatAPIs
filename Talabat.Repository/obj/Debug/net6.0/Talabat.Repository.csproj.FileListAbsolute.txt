@@ -62,3 +62,19 @@ E:\Backend-Route\09 WebApi\TalabatAPIs\Talabat.Repository\obj\Debug\net6.0\Talab
 E:\Backend-Route\09 WebApi\TalabatAPIs\Talabat.Repository\obj\Debug\net6.0\refint\Talabat.Repository.dll
 E:\Backend-Route\09 WebApi\TalabatAPIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.pdb
 E:\Backend-Route\09 WebApi\TalabatAPIs\Talabat.Repository\obj\Debug\net6.0\ref\Talabat.Repository.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.deps.json
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\bin\Debug\net6.0\Talabat.Repository.pdb
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\bin\Debug\net6.0\Talabat.Core.pdb
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.AssemblyReference.cache
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.GeneratedMSBuildEditorConfig.editorconfig
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfoInputs.cache
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.AssemblyInfo.cs
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.csproj.CoreCompileInputs.cache
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.sourcelink.json
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat..61C101DD.Up2Date
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\refint\Talabat.Repository.dll
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\Talabat.Repository.pdb
+D:\1- Learn\Route\09 ASP.NET Core Web APIs\Talabat.G03.APIs\Talabat.Repository\obj\Debug\net6.0\ref\Talabat.Repository.dll
