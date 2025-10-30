@@ -10,9 +10,9 @@ namespace Talabat.Core.Reposotories.Centext
     public interface IGenericReposotory<T> where T : class
     {
         Task<T?> getAsync(int Id);
-        Task<IEnumerable<T>> getAllAsync();
+        Task<IReadOnlyList<T>> getAllAsync();
 
         Task<T?> getWithSpectAsync(ISpacifications<T> Spect);
-        Task<IEnumerable<T>> getAllWithSpectAsync(ISpacifications<T> Spect);
+        Task<IReadOnlyList<T>> getAllWithSpectAsync(ISpacifications<T> Spect);
     }
 }

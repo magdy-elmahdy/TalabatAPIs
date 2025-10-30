@@ -1,5 +1,6 @@
 ﻿using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
+using Talabat.APIs.Errors;
 using Talabat.Core.Entities;
 using Talabat.Repository.Data;
 
@@ -18,7 +19,7 @@ namespace Talabat.APIs.Controllers
         public ActionResult getNotFound()
         {
             var product = _dbContext.Set<Product>().Find(100);
-            if(product == null) return NotFound();
+            if (product == null) return NotFound(new ApiResponse(404));
             return Ok(product);
         }
 
@@ -30,6 +31,14 @@ namespace Talabat.APIs.Controllers
             var product = _dbContext.Set<Product>().Find(100);
             var productToReturn = product.ToString();
             return Ok(productToReturn);
+        }
+
+        // Bad Request Error 
+        [HttpGet("BadRequest/{id}")]
+        public ActionResult GetBadRequestError(int id)
+        {
+            
+            return Ok();
         }
 
     }

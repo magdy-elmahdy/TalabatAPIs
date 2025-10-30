@@ -20,10 +20,8 @@ namespace Talabat.Repository
             _storeContext = StoreContext;
         }
 
-        public async Task<IEnumerable<T>> getAllAsync()
+        public async Task<IReadOnlyList<T>> getAllAsync()
         {
-            if(typeof(T)  == typeof(Product))
-              return (IEnumerable<T>) await _storeContext.Set<Product>().Include(p=>p.Brand).Include(p=>p.Category).ToListAsync();
            return await _storeContext.Set<T>().ToListAsync();
         }
 
@@ -34,7 +32,7 @@ namespace Talabat.Repository
         }
 
 
-        public async Task<IEnumerable<T>> getAllWithSpectAsync(ISpacifications<T> Spect)
+        public async Task<IReadOnlyList<T>> getAllWithSpectAsync(ISpacifications<T> Spect)
         {
             return await SpacificationEvaluator<T>.getQuery(_storeContext.Set<T>(), Spect).AsNoTracking().ToListAsync();
         }  

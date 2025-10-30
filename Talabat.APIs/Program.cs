@@ -1,5 +1,8 @@
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
+using Talabat.APIs.Errors;
 using Talabat.APIs.Helprer;
+using Talabat.APIs.Middlewares;
 using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications;
 using Talabat.Repository;
@@ -14,9 +17,8 @@ namespace Talabat.APIs
             var builder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
-
+            
             builder.Services.AddControllers();
-            // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle
             builder.Services.AddEndpointsApiExplorer();
             builder.Services.AddSwaggerGen();
             builder.Services.AddDbContext<StoreContext>(options =>
@@ -26,6 +28,23 @@ namespace Talabat.APIs
             builder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
             builder.Services.AddAutoMapper(typeof(MappigProfiles));
 
+            builder.Services.Configure<ApiBehaviorOptions>(ApiBehaviorOptions =>
+            {
+                ApiBehaviorOptions.InvalidModelStateResponseFactory = (actionContext) =>
+                {
+                    var errors = actionContext.ModelState.Where(p => p.Value.Errors.Count() > 0)
+                    .SelectMany(P => P.Value.Errors).Select(E=>E.ErrorMessage)
+                    .ToList();
+
+                    var Resposne = new ApiValidationErrorResponse(errors);
+                    //var Resposne = new ApiValidationErrorResponse()
+                    //{
+                    //    Errors = errors
+
+                    //};
+                    return new BadRequestObjectResult(Resposne);
+                };
+            });
 
 
             var app = builder.Build();
@@ -47,6 +66,7 @@ namespace Talabat.APIs
             }
 
             // Configure the HTTP request pipeline Middlewares.
+            app.UseMiddleware<ExceptionMiddleware>();
             if (app.Environment.IsDevelopment())
             {
                 app.UseSwagger();
