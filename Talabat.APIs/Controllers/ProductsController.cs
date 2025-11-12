@@ -4,6 +4,7 @@ using AutoMapper;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.Dtos;
+using Talabat.APIs.Helprer;
 using Talabat.Core.Entities;
 using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications.Product_Spec;
@@ -33,11 +34,14 @@ namespace Talabat.APIs.Controllers
          
 
         [HttpGet]
-        public async Task<ActionResult<IReadOnlyList<ProductToReturnDto>>> getProducts([FromQuery] ProductSpecParams specParams)
+        public async Task<ActionResult<Pagination<ProductToReturnDto>>> getProducts([FromQuery] ProductSpecParams specParams)
         {
             var Specs = new ProductWithBrnadAndCategoriesSpec(specParams);
             var products = await _productRepo.getAllWithSpectAsync(Specs);
-            return Ok(_mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products));
+            var data = _mapper.Map<IReadOnlyList<Product>, IReadOnlyList<ProductToReturnDto>>(products);
+            var countSpacs = new ProductsWithFilterationForCountSpacifications(specParams);
+            var count = await _productRepo.GetCountAsync(countSpacs);
+            return Ok(new Pagination<ProductToReturnDto>(specParams.PageSize , specParams.PageIndex , count, data) {});
         }
 
 

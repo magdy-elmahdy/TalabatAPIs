@@ -41,5 +41,10 @@ namespace Talabat.Repository
             return await SpacificationEvaluator<T>.getQuery(_storeContext.Set<T>(), Spect).FirstOrDefaultAsync();
 
         }
+
+        public async Task<int> GetCountAsync(ISpacifications<T> Spect)
+        {
+            return await SpacificationEvaluator<T>.getQuery(_storeContext.Set<T>(), Spect).CountAsync();
+        }
     }
 }

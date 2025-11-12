@@ -14,5 +14,6 @@ namespace Talabat.Core.Reposotories.Centext
 
         Task<T?> getWithSpectAsync(ISpacifications<T> Spect);
         Task<IReadOnlyList<T>> getAllWithSpectAsync(ISpacifications<T> Spect);
+        Task<int> GetCountAsync(ISpacifications<T> Spect);
     }
 }
