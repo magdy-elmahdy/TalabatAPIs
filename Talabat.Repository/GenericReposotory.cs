@@ -32,9 +32,9 @@ namespace Talabat.Repository
         }
 
 
-        public async Task<IReadOnlyList<T>> getAllWithSpectAsync(ISpacifications<T> Spect)
+        public async Task<IReadOnlyList<T>> getAllWithSpectAsync(ISpacifications<T> Specs)
         {
-            return await SpacificationEvaluator<T>.getQuery(_storeContext.Set<T>(), Spect).AsNoTracking().ToListAsync();
+            return await SpacificationEvaluator<T>.getQuery(_storeContext.Set<T>(), Specs).AsNoTracking().ToListAsync();
         }  
         public async Task<T?> getWithSpectAsync(ISpacifications<T> Spect)
         {

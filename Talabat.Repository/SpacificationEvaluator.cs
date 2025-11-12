@@ -10,14 +10,28 @@ namespace Talabat.Repository
 {
     internal static class SpacificationEvaluator<TEntity> where TEntity : class
     {
-        public static IQueryable<TEntity> getQuery(IQueryable<TEntity> inputQuery , ISpacifications<TEntity> Spec)
+        public static IQueryable<TEntity> getQuery(IQueryable<TEntity> inputQuery , ISpacifications<TEntity> Specs)
         {
             var Query = inputQuery;
-            if(Spec.Criteria != null)
+            if(Specs.Criteria != null)
             {
-                Query = Query.Where(Spec.Criteria);
+                Query = Query.Where(Specs.Criteria);
             }
-            Query = Spec.Includes.Aggregate(Query, (acc, Expression) => acc.Include(Expression));
+            if(Specs.OrderBy != null)
+            {
+                Query = Query.OrderBy(Specs.OrderBy);
+            }
+            if (Specs.OrderByDesc != null)
+            {
+                Query = Query.OrderByDescending(Specs.OrderByDesc);
+            }
+                
+            Query = Specs.Includes.Aggregate(Query, (acc, Expression) => acc.Include(Expression));
+
+            if (Specs.IsPaginationEnabled)
+            {
+                Query = Query.Skip(Specs.Skip).Take(Specs.Take);
+            }
 
 
             return Query; 

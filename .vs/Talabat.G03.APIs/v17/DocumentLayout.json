@@ -3,16 +3,32 @@
   "WorkspaceRootPath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.core\\reposotories.centext\\igenericreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\reposotories.centext\\igenericreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.repository\\spacificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\spacificationevaluator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.repository\\genericreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\genericreposotory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\productscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.core\\spacifications\\product spec\\productwithbrnadandcategoriesspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\spacifications\\product spec\\productwithbrnadandcategoriesspecs.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.core\\spacifications\\basespacifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\spacifications\\basespacifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.core\\spacifications\\ispacifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\spacifications\\ispacifications.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\1- learn\\route\\09 asp.net core web apis\\talabat.g03.apis\\talabat.core\\spacifications\\product spec\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\spacifications\\product spec\\productspecparams.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,45 +38,97 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 4,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "GenericReposotory.cs",
-              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\GenericReposotory.cs",
-              "RelativeDocumentMoniker": "Talabat.Repository\\GenericReposotory.cs",
-              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\GenericReposotory.cs",
-              "RelativeToolTip": "Talabat.Repository\\GenericReposotory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAB8AAAAJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:46:11.168Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "IGenericReposotory.cs",
-              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Reposotories.Centext\\IGenericReposotory.cs",
-              "RelativeDocumentMoniker": "Talabat.Core\\Reposotories.Centext\\IGenericReposotory.cs",
-              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Reposotories.Centext\\IGenericReposotory.cs",
-              "RelativeToolTip": "Talabat.Core\\Reposotories.Centext\\IGenericReposotory.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABIAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-10-27T05:45:18.966Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
               "Title": "ProductsController.cs",
               "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.APIs\\Controllers\\ProductsController.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\ProductsController.cs",
               "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.APIs\\Controllers\\ProductsController.cs",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\ProductsController.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAABQAAAAiAAAA",
+              "ViewState": "AQIAAA4AAAAAAAAAAAAQwCYAAABCAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-10-25T15:29:18.349Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductWithBrnadAndCategoriesSpecs.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\Product Spec\\ProductWithBrnadAndCategoriesSpecs.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Spacifications\\Product Spec\\ProductWithBrnadAndCategoriesSpecs.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\Product Spec\\ProductWithBrnadAndCategoriesSpecs.cs",
+              "RelativeToolTip": "Talabat.Core\\Spacifications\\Product Spec\\ProductWithBrnadAndCategoriesSpecs.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACYAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:43:11.505Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "GenericReposotory.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\GenericReposotory.cs",
+              "RelativeDocumentMoniker": "Talabat.Repository\\GenericReposotory.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\GenericReposotory.cs",
+              "RelativeToolTip": "Talabat.Repository\\GenericReposotory.cs",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAACQAAAA7AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:08:00.656Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "BaseSpacifications.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\BaseSpacifications.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Spacifications\\BaseSpacifications.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\BaseSpacifications.cs",
+              "RelativeToolTip": "Talabat.Core\\Spacifications\\BaseSpacifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBoAAAAJAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:55:02.32Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "SpacificationEvaluator.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\SpacificationEvaluator.cs",
+              "RelativeDocumentMoniker": "Talabat.Repository\\SpacificationEvaluator.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Repository\\SpacificationEvaluator.cs",
+              "RelativeToolTip": "Talabat.Repository\\SpacificationEvaluator.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABgAAAANAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T21:10:23.897Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ISpacifications.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\ISpacifications.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Spacifications\\ISpacifications.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\ISpacifications.cs",
+              "RelativeToolTip": "Talabat.Core\\Spacifications\\ISpacifications.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABAAAAAlAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-10T20:44:30.41Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ProductSpecParams.cs",
+              "DocumentMoniker": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\Product Spec\\ProductSpecParams.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Spacifications\\Product Spec\\ProductSpecParams.cs",
+              "ToolTip": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Spacifications\\Product Spec\\ProductSpecParams.cs",
+              "RelativeToolTip": "Talabat.Core\\Spacifications\\Product Spec\\ProductSpecParams.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABcAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-12T07:05:44.677Z",
               "EditorCaption": ""
             }
           ]
