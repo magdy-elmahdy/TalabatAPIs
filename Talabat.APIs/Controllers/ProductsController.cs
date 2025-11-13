@@ -8,6 +8,8 @@ using Talabat.APIs.Helprer;
 using Talabat.Core.Entities;
 using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications.Product_Spec;
+using Talabat.Repository.Data;
+using Talabat.Repository;
 
 namespace Talabat.APIs.Controllers
 {
@@ -75,6 +77,34 @@ namespace Talabat.APIs.Controllers
         {
             var categories = await _categoriesRepo.getAllAsync();
             return Ok(categories);
+        }
+
+
+        [HttpPost]
+        public async Task<ActionResult<ProductToReturnDto>> AddProduct(ProductCreateDto productDto)
+        {
+            // 1. تحقق من صحة البيانات
+            if (!ModelState.IsValid)
+                return BadRequest(ModelState);
+
+            // 2. تحويل الـ DTO إلى Entity
+            var product = _mapper.Map<Product>(productDto);
+
+            // 3. إضافة المنتج إلى الـ DbContext
+            await _productRepo.AddAsync(product);
+
+            // 4. حفظ التغييرات (SaveChanges)
+            // لو مافيش UnitOfWork فهتحتاج تمرر الـ DbContext نفسه في الريبو وتستدعي SaveChanges
+            var context = (StoreContext)typeof(GenericReposotory<Product>)
+                          .GetField("_storeContext", System.Reflection.BindingFlags.NonPublic | System.Reflection.BindingFlags.Instance)
+                          .GetValue(_productRepo);
+            await context.SaveChangesAsync();
+
+            // 5. تحويل الناتج إلى DTO للرجوع به
+            var productToReturn = _mapper.Map<ProductToReturnDto>(product);
+
+            // 6. رجع استجابة 201 Created
+            return CreatedAtAction(nameof(getProductById), new { id = product.Id }, productToReturn);
         }
     }
 }
