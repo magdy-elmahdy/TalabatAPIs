@@ -18,6 +18,7 @@ namespace Talabat.Core.Spacifications.Product_Spec
             set { pageSize = value>10?10:value; }
         }
         public int PageIndex { get; set; } = 1;
+        public string? Search { get; set; }
 
     }
 }
