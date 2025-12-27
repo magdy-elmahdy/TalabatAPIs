@@ -1,0 +1,17 @@
+﻿using System;
+using System.Collections.Generic;
+using System.Linq;
+using System.Text;
+using System.Threading.Tasks;
+using Talabat.Core.Entities;
+
+namespace Talabat.Core.Reposotories.Centext
+{
+    public interface IBasketRepository
+    {
+        Task<CustomerBasket?> GetBasketAsnc(string basketId);
+        Task<CustomerBasket?> UpdateBasketAsync(CustomerBasket basket);
+        Task<bool> DeleteBasketAsync(string basketId);
+    }
+}                 
+           
