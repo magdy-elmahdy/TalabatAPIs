@@ -1,8 +1,12 @@
 {
   "version": 2,
-  "dgSpecHash": "iaoRJWRPI8o=",
+  "dgSpecHash": "Q9Zm08Fa21U=",
   "success": true,
-  "projectFilePath": "D:\\1- Learn\\Route\\09 ASP.NET Core Web APIs\\Talabat.G03.APIs\\Talabat.Core\\Talabat.Core.csproj",
-  "expectedPackageFiles": [],
+  "projectFilePath": "D:\\BackEnd\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
+    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
+  ],
   "logs": []
 }

@@ -465,7 +465,10 @@
       },
       "Talabat.Core/1.0.0": {
         "runtime": {
-          "Talabat.Core.dll": {}
+          "Talabat.Core.dll": {
+            "assemblyVersion": "1.0.0.0",
+            "fileVersion": "1.0.0.0"
+          }
         }
       }
     }
