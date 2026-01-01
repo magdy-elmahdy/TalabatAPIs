@@ -14,6 +14,9 @@ namespace Talabat.APIs.Helprer
                 .ForMember(d => d.PictureUrl, O => O.MapFrom<ProductPictureUrlResolver>());
           
             CreateMap<ProductCreateDto, Product>();
+            //هيجيلك دي تي او حوله ل انتتي
+            CreateMap<CustomerBasketDto, CustomerBasket>();
+            CreateMap<BasketItemDto ,BasketItem>();
         }
     }
 }

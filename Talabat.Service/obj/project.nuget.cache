@@ -1,12 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "k6HtGO4KBkQ=",
+  "dgSpecHash": "5JvuLWmwViw=",
   "success": true,
   "projectFilePath": "D:\\BackEnd\\09 WebApi\\TalabatAPIs\\Talabat.Service\\Talabat.Service.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\6.0.36\\microsoft.windowsdesktop.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.netcore.app.ref\\6.0.36\\microsoft.netcore.app.ref.6.0.36.nupkg.sha512",
-    "C:\\Users\\Giga\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\6.0.36\\microsoft.aspnetcore.app.ref.6.0.36.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

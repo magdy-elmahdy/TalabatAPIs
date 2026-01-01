@@ -26,12 +26,13 @@ namespace Talabat.APIs
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddSingleton<IConnectionMultiplexer>(options =>
+            builder.Services.AddSingleton<IConnectionMultiplexer>( (serviceProvider)=>
             {
                 var connection = builder.Configuration.GetConnectionString("Redis");
                 return ConnectionMultiplexer.Connect(connection);
             });
             builder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
+            builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
             builder.Services.AddAutoMapper(typeof(MappigProfiles));
 
             builder.Services.Configure<ApiBehaviorOptions>(ApiBehaviorOptions =>

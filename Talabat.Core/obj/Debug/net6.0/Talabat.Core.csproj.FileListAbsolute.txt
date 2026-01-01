@@ -70,3 +70,17 @@ D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.dll
 D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
 D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.deps.json
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.pdb
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfoInputs.cache
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfo.cs
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.CoreCompileInputs.cache
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.sourcelink.json
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
