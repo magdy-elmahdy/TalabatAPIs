@@ -1,4 +1,4 @@
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using Talabat.APIs.Errors;
@@ -7,6 +7,7 @@ using Talabat.APIs.Middlewares;
 using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications;
 using Talabat.Repository;
+using Talabat.Repository._Identity;
 using Talabat.Repository.Data;
 
 namespace Talabat.APIs
@@ -25,6 +26,10 @@ namespace Talabat.APIs
             builder.Services.AddDbContext<StoreContext>(options =>
             {
                 options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+            });
+            builder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
+            {
+                options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
             });
             builder.Services.AddSingleton<IConnectionMultiplexer>( (serviceProvider)=>
             {
@@ -59,12 +64,14 @@ namespace Talabat.APIs
             
             using var scope = app.Services.CreateScope();
             var services = scope.ServiceProvider;
-            var _storeContext = services.GetRequiredService<StoreContext>();
+            var _storeContext = services.GetRequiredService<StoreContext>();//بطلب اوبجكت من StoreContext
+            var _IdentiyDbContext = services.GetRequiredService<ApplicationIdentityDbContext>();//بطلب اوبجكت من StoreContext
             var _loggerFactory = services.GetRequiredService<ILoggerFactory>();
             try
             {
                 await _storeContext.Database.MigrateAsync();
                 await StoreContextSeed.SeedAsync(_storeContext);
+                await _IdentiyDbContext.Database.MigrateAsync();
             }
             catch (Exception ex)
             {

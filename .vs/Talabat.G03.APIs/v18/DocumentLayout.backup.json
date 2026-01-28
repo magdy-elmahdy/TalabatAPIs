@@ -1,0 +1,122 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|f:\\route\\09 asp.net core web apis\\talabatapis\\talabat.core\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|f:\\route\\09 asp.net core web apis\\talabatapis\\talabat.repository\\_identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\_identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|f:\\route\\09 asp.net core web apis\\talabatapis\\talabat.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "Talabat.APIs\\appsettings.json",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeToolTip": "Talabat.APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-01-26T21:44:33.686Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "20260126213251_InitialCreate.cs",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs",
+              "RelativeDocumentMoniker": "Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs",
+              "RelativeToolTip": "Talabat.Repository\\_Identity\\Migrations\\20260126213251_InitialCreate.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAgwAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:32:51.995Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Entities\\ApplicationUser.cs",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Talabat.Core\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAAcAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T15:42:11.843Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Program.cs",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Program.cs",
+              "RelativeToolTip": "Talabat.APIs\\Program.cs",
+              "ViewState": "AgIAAD0AAAAAAAAAAAAAAEkAAABAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:10:26.246Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "ApplicationIdentityDbContext.cs",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
+              "RelativeDocumentMoniker": "Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
+              "RelativeToolTip": "Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAAAA8AAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:04:10.243Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Address.cs",
+              "DocumentMoniker": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Entities\\Address.cs",
+              "ToolTip": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\Address.cs",
+              "RelativeToolTip": "Talabat.Core\\Entities\\Address.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T15:43:53.924Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

@@ -570,3 +570,4 @@ F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.APIs\obj\Debug\net6.0\Tala
 F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.APIs\obj\Debug\net6.0\ref\Talabat.APIs.dll
 D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.APIs\bin\Debug\net6.0\Pipelines.Sockets.Unofficial.dll
 D:\BackEnd\09 WebApi\TalabatAPIs\Talabat.APIs\bin\Debug\net6.0\StackExchange.Redis.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.APIs\bin\Debug\net6.0\Microsoft.AspNetCore.Identity.EntityFrameworkCore.dll

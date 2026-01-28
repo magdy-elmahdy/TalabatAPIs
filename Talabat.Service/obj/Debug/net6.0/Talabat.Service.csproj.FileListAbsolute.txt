@@ -9,3 +9,15 @@ D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\T
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
 D:\1- Learn\Route\09 ASP.NET Core Web APIs\Session 01\Testing\Talabat.G03.APIs\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\bin\Debug\net6.0\Talabat.Service.deps.json
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\bin\Debug\net6.0\Talabat.Service.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\bin\Debug\net6.0\Talabat.Service.pdb
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.GeneratedMSBuildEditorConfig.editorconfig
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfoInputs.cache
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.AssemblyInfo.cs
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.csproj.CoreCompileInputs.cache
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.sourcelink.json
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\refint\Talabat.Service.dll
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\Talabat.Service.pdb
+F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Service\obj\Debug\net6.0\ref\Talabat.Service.dll
