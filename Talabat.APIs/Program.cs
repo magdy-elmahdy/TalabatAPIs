@@ -1,9 +1,11 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Identity;
+using Microsoft.AspNetCore.Mvc;
 using Microsoft.EntityFrameworkCore;
 using StackExchange.Redis;
 using Talabat.APIs.Errors;
 using Talabat.APIs.Helprer;
 using Talabat.APIs.Middlewares;
+using Talabat.Core.Entities;
 using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications;
 using Talabat.Repository;
@@ -58,8 +60,8 @@ namespace Talabat.APIs
                 };
             });
 
-
-            var app = builder.Build();
+            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationIdentityDbContext>();
+           var app = builder.Build();
 
             
             using var scope = app.Services.CreateScope();
@@ -72,6 +74,8 @@ namespace Talabat.APIs
                 await _storeContext.Database.MigrateAsync();
                 await StoreContextSeed.SeedAsync(_storeContext);
                 await _IdentiyDbContext.Database.MigrateAsync();
+                var _usernager = services.GetRequiredService <UserManager<ApplicationUser>>();
+                await ApplicationIdentityDataSeed.SeedUsersAsync(_usernager);
             }
             catch (Exception ex)
             {
