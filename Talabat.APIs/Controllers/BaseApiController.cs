@@ -7,6 +7,6 @@ namespace Talabat.APIs.Controllers
     [ApiController]
     public class BaseApiController : ControllerBase
     {
-        // rgfrgrg
+        
     }
 }
