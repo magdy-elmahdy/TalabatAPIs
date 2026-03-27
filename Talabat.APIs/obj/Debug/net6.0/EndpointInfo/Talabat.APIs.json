@@ -796,6 +796,7 @@
           "displayName",
           "email",
           "password",
+          "pnoneNumber",
           "userName"
         ],
         "type": "object",
@@ -804,11 +805,15 @@
             "minLength": 1,
             "type": "string"
           },
+          "userName": {
+            "minLength": 1,
+            "type": "string"
+          },
           "email": {
             "minLength": 1,
             "type": "string"
           },
-          "userName": {
+          "pnoneNumber": {
             "minLength": 1,
             "type": "string"
           },

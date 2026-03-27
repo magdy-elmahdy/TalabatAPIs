@@ -38,8 +38,21 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
+              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDYAAAAPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-06T15:27:56.073Z",
+              "EditorCaption": ""
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
@@ -48,22 +61,9 @@
               "RelativeDocumentMoniker": "Talabat.APIs\\Dtos\\RegisterDto.cs",
               "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Dtos\\RegisterDto.cs",
               "RelativeToolTip": "Talabat.APIs\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T11:11:54.537Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "AccountController.cs",
-              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
-              "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
-              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs*",
-              "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs*",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwCsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T15:27:56.073Z",
+              "WhenOpened": "2026-03-27T13:48:59.813Z",
               "EditorCaption": ""
             },
             {
@@ -112,8 +112,7 @@
               "RelativeToolTip": "Talabat.Repository\\_Identity\\ApplicationIdentityDataSeed.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAABcAAAA2AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:39:03.161Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-02-28T12:39:03.161Z"
             },
             {
               "$type": "Document",

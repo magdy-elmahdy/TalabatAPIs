@@ -8,16 +8,15 @@ namespace Talabat.APIs.Dtos
         public string DisplayName { get; set; } = null!;
 
         [Required]
-        public string Email { get; set; } = null!;
-
-        [Required]
         public string UserName { get; set; } = null!;
 
         [Required]
-        public string Password { get; set; } = null!;
+        public string Email { get; set; } = null!;
 
         [Required]
-        public string Phone { get; set; } = null!;
+        public string PnoneNumber { get; set; } = null!;
 
+        [Required]
+        public string Password { get; set; } = null!;
     }
 }

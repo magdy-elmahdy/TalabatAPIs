@@ -3,16 +3,24 @@
   "WorkspaceRootPath": "D:\\Route\\09 WebApi\\TalabatAPIs\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C692BD7C-6FF0-4745-BBB2-6860AC354273}|Talabats.Application\\Talabats.Application.csproj|d:\\route\\09 webapi\\talabatapis\\talabats.application\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C692BD7C-6FF0-4745-BBB2-6860AC354273}|Talabats.Application\\Talabats.Application.csproj|solutionrelative:talabats.application\\authservice\\authservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\errors\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\errors\\apivalidationerrorresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.core\\services.contract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\services.contract\\iauthservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\registerdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.repository\\_identity\\applicationidentitydataseed.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
@@ -21,10 +29,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.repository\\_identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{3B7D2532-2111-4F12-844F-2072879B8C34}|Talabat.Repository\\Talabat.Repository.csproj|solutionrelative:talabat.repository\\_identity\\applicationidentitydbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\logindto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|d:\\route\\09 webapi\\talabatapis\\talabat.apis\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -42,62 +46,76 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "ApiValidationErrorResponse.cs",
-              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Errors\\ApiValidationErrorResponse.cs",
-              "RelativeDocumentMoniker": "Talabat.APIs\\Errors\\ApiValidationErrorResponse.cs",
-              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Errors\\ApiValidationErrorResponse.cs",
-              "RelativeToolTip": "Talabat.APIs\\Errors\\ApiValidationErrorResponse.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "AuthService.cs",
+              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\AuthService\\AuthService.cs",
+              "RelativeDocumentMoniker": "Talabats.Application\\AuthService\\AuthService.cs",
+              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\AuthService\\AuthService.cs",
+              "RelativeToolTip": "Talabats.Application\\AuthService\\AuthService.cs",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAowDMAAAAFAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T11:45:30.712Z",
+              "WhenOpened": "2026-03-27T21:52:36.824Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "Talabat.APIs\\appsettings.json",
+              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeToolTip": "Talabat.APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-03-27T22:09:40.247Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "IAuthService.cs",
+              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Services.Contract\\IAuthService.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Services.Contract\\IAuthService.cs",
+              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Services.Contract\\IAuthService.cs",
+              "RelativeToolTip": "Talabat.Core\\Services.Contract\\IAuthService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-03-27T21:19:46.888Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
               "Title": "AccountController.cs",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
               "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAB0AAAAAAAAAAAAIwDIAAAAjAAAAAAAAAA==",
+              "ViewState": "AgIAAB0AAAAAAAAAAAAwwDYAAAAPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-03-06T15:27:56.073Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "RegisterDto.cs",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Dtos\\RegisterDto.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Dtos\\RegisterDto.cs",
               "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Dtos\\RegisterDto.cs",
               "RelativeToolTip": "Talabat.APIs\\Dtos\\RegisterDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAkAAAAAAAAAA==",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA1AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-07T11:11:54.537Z",
+              "WhenOpened": "2026-03-27T13:48:59.813Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "LoginDto.cs",
-              "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Dtos\\LoginDto.cs",
-              "RelativeDocumentMoniker": "Talabat.APIs\\Dtos\\LoginDto.cs",
-              "ToolTip": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Dtos\\LoginDto.cs",
-              "RelativeToolTip": "Talabat.APIs\\Dtos\\LoginDto.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAqwAoAAAAeAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-03-06T15:35:11.661Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 7,
               "Title": "launchSettings.json",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Properties\\launchSettings.json",
               "RelativeDocumentMoniker": "Talabat.APIs\\Properties\\launchSettings.json",
@@ -105,11 +123,12 @@
               "RelativeToolTip": "Talabat.APIs\\Properties\\launchSettings.json",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2026-03-06T15:22:57.525Z"
+              "WhenOpened": "2026-03-06T15:22:57.525Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "Program.cs",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Program.cs",
               "RelativeDocumentMoniker": "Talabat.APIs\\Program.cs",
@@ -117,11 +136,12 @@
               "RelativeToolTip": "Talabat.APIs\\Program.cs",
               "ViewState": "AgIAABgAAAAAAAAAAAAgwD0AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:47:00.786Z"
+              "WhenOpened": "2026-02-28T12:47:00.786Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "ApplicationIdentityDataSeed.cs",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\_Identity\\ApplicationIdentityDataSeed.cs",
               "RelativeDocumentMoniker": "Talabat.Repository\\_Identity\\ApplicationIdentityDataSeed.cs",
@@ -134,7 +154,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 6,
               "Title": "ApplicationIdentityDbContext.cs",
               "DocumentMoniker": "D:\\Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
               "RelativeDocumentMoniker": "Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
@@ -142,7 +162,8 @@
               "RelativeToolTip": "Talabat.Repository\\_Identity\\ApplicationIdentityDbContext.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-02-28T12:38:27.652Z"
+              "WhenOpened": "2026-02-28T12:38:27.652Z",
+              "EditorCaption": ""
             }
           ]
         }
