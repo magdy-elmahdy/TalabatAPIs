@@ -7,10 +7,12 @@ using Talabat.APIs.Helprer;
 using Talabat.APIs.Middlewares;
 using Talabat.Core.Entities;
 using Talabat.Core.Reposotories.Centext;
+using Talabat.Core.Services.Contract;
 using Talabat.Core.Spacifications;
 using Talabat.Repository;
 using Talabat.Repository._Identity;
 using Talabat.Repository.Data;
+using Talabats.Application.AuthService;
 
 namespace Talabat.APIs
 {
@@ -41,7 +43,7 @@ namespace Talabat.APIs
             builder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
             builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
             builder.Services.AddAutoMapper(typeof(MappigProfiles));
-
+            builder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
             builder.Services.Configure<ApiBehaviorOptions>(ApiBehaviorOptions =>
             {
                 ApiBehaviorOptions.InvalidModelStateResponseFactory = (actionContext) =>
@@ -62,6 +64,12 @@ namespace Talabat.APIs
 
             builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationIdentityDbContext>();
            var app = builder.Build();
+
+
+
+
+
+
 
             
             using var scope = app.Services.CreateScope();

@@ -4,23 +4,29 @@ using Microsoft.AspNetCore.Mvc;
 using Talabat.APIs.Dtos;
 using Talabat.APIs.Errors;
 using Talabat.Core.Entities;
+using Talabat.Core.Services.Contract;
 
 namespace Talabat.APIs.Controllers
 {
     public class AccountController : BaseApiController
     {
-        public UserManager<ApplicationUser> _UserManager { get; }
+        public UserManager<ApplicationUser> _userManager { get; }
         public SignInManager<ApplicationUser> _SignInManager { get; }
-        public AccountController(UserManager<ApplicationUser> userManager, SignInManager<ApplicationUser> signInManager1)
+        public IAuthService _authService { get; }
+
+        public AccountController(UserManager<ApplicationUser> userManager,
+            SignInManager<ApplicationUser> signInManager1,
+            IAuthService authService)
         {
-            _UserManager = userManager;
+            _userManager = userManager;
             _SignInManager = signInManager1;
+            _authService = authService;
         }
 
         [HttpPost("Login")]
         public async Task<ActionResult<UserDto>> Login(LoginDto model)
         {
-            var user = await _UserManager.FindByEmailAsync(model.Email);
+            var user = await _userManager.FindByEmailAsync(model.Email);
             if (user == null) return Unauthorized(new ApiResponse(401, "Invalid Login"));
 
             var pass = await _SignInManager.CheckPasswordSignInAsync(user, model.Password, false);
@@ -30,7 +36,7 @@ namespace Talabat.APIs.Controllers
             {
                 DisplayName = user.DisplayName,
                 Email = user.Email,
-                Token = "This Will Be Token Soon"
+                Token =await _authService.CreateTokenAsync(user , _userManager)
 
             });
         }
@@ -45,13 +51,13 @@ namespace Talabat.APIs.Controllers
                 UserName = model.UserName,
                 PhoneNumber = model.PnoneNumber
             };
-            var result =  await _UserManager.CreateAsync(user, model.Password);
+            var result =  await _userManager.CreateAsync(user, model.Password);
             if (!result.Succeeded) return BadRequest(400);
             return Ok(new UserDto()
             {
                 DisplayName = user.DisplayName,
                 Email = user.Email,
-                Token = "This Will Be Token "
+                Token = await _authService.CreateTokenAsync(user, _userManager)
             });
         }
 
