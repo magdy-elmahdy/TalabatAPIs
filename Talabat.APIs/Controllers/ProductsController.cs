@@ -10,6 +10,7 @@ using Talabat.Core.Reposotories.Centext;
 using Talabat.Core.Spacifications.Product_Spec;
 using Talabat.Repository.Data;
 using Talabat.Repository;
+using Microsoft.AspNetCore.Authorization;
 
 namespace Talabat.APIs.Controllers
 {
@@ -33,8 +34,8 @@ namespace Talabat.APIs.Controllers
             _mapper = mapper;
         }
 
-         
 
+        [Authorize(AuthenticationSchemes =("Bearer"))]
         [HttpGet]
         public async Task<ActionResult<Pagination<ProductToReturnDto>>> getProducts([FromQuery] ProductSpecParams specParams)
         {

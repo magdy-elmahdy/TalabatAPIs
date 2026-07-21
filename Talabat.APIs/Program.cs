@@ -20,31 +20,31 @@ namespace Talabat.APIs
     {
         public static async Task Main(string[] args)
         {
-            var builder = WebApplication.CreateBuilder(args);
+            var webApplicationBuilder = WebApplication.CreateBuilder(args);
 
             // Add services to the container.
             
-            builder.Services.AddControllers();
-            builder.Services.AddEndpointsApiExplorer();
-            builder.Services.AddSwaggerGen();
-            builder.Services.AddDbContext<StoreContext>(options =>
+            webApplicationBuilder.Services.AddControllers();
+            webApplicationBuilder.Services.AddEndpointsApiExplorer();
+            webApplicationBuilder.Services.AddSwaggerGen();
+            webApplicationBuilder.Services.AddDbContext<StoreContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("DefaultConnection"));
+                options.UseSqlServer(webApplicationBuilder.Configuration.GetConnectionString("DefaultConnection"));
             });
-            builder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
+            webApplicationBuilder.Services.AddDbContext<ApplicationIdentityDbContext>(options =>
             {
-                options.UseSqlServer(builder.Configuration.GetConnectionString("IdentityConnection"));
+                options.UseSqlServer(webApplicationBuilder.Configuration.GetConnectionString("IdentityConnection"));
             });
-            builder.Services.AddSingleton<IConnectionMultiplexer>( (serviceProvider)=>
+            webApplicationBuilder.Services.AddSingleton<IConnectionMultiplexer>( (serviceProvider)=>
             {
-                var connection = builder.Configuration.GetConnectionString("Redis");
+                var connection = webApplicationBuilder.Configuration.GetConnectionString("Redis");
                 return ConnectionMultiplexer.Connect(connection);
             });
-            builder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
-            builder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
-            builder.Services.AddAutoMapper(typeof(MappigProfiles));
-            builder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
-            builder.Services.Configure<ApiBehaviorOptions>(ApiBehaviorOptions =>
+            webApplicationBuilder.Services.AddScoped(typeof(IGenericReposotory<>), typeof(GenericReposotory<>));
+            webApplicationBuilder.Services.AddScoped(typeof(IBasketRepository), typeof(BasketRepository));
+            webApplicationBuilder.Services.AddAutoMapper(typeof(MappigProfiles));
+            webApplicationBuilder.Services.AddScoped(typeof(IAuthService), typeof(AuthService));
+            webApplicationBuilder.Services.Configure<ApiBehaviorOptions>(ApiBehaviorOptions =>
             {
                 ApiBehaviorOptions.InvalidModelStateResponseFactory = (actionContext) =>
                 {
@@ -62,8 +62,21 @@ namespace Talabat.APIs
                 };
             });
 
-            builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationIdentityDbContext>();
-           var app = builder.Build();
+            webApplicationBuilder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationIdentityDbContext>();
+            webApplicationBuilder.Services.AddAuthentication().AddJwtBearer("Bearer",options =>
+            {
+                options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
+                {
+                    ValidateIssuer = true,
+                    ValidateAudience = true,
+                    ValidateLifetime = true,
+                    ValidateIssuerSigningKey = true,
+                    ValidIssuer = webApplicationBuilder.Configuration["JWT:ValidIssuer"],
+                    ValidAudience = webApplicationBuilder.Configuration["JWT:ValidAudience"],
+                    IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(webApplicationBuilder.Configuration["JWT:AuthKey"])),
+                };
+            });
+            var app = webApplicationBuilder.Build();
 
 
 
