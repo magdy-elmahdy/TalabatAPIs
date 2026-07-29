@@ -17,6 +17,7 @@ namespace Talabat.APIs.Helprer
             //هيجيلك دي تي او حوله ل انتتي
             CreateMap<CustomerBasketDto, CustomerBasket>();
             CreateMap<BasketItemDto ,BasketItem>();
+            CreateMap<Address, AddressDto>();
         }
     }
 }

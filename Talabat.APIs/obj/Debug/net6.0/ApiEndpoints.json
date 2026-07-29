@@ -29,7 +29,7 @@
     "Parameters": [],
     "ReturnTypes": [
       {
-        "Type": "Talabat.Core.Entities.Address",
+        "Type": "Talabat.APIs.Dtos.AddressDto",
         "MediaTypes": [
           "text/plain",
           "application/json",
