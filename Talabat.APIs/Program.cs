@@ -71,6 +71,7 @@ namespace Talabat.APIs
                     ValidateAudience = true,
                     ValidateLifetime = true,
                     ValidateIssuerSigningKey = true,
+
                     ValidIssuer = webApplicationBuilder.Configuration["JWT:ValidIssuer"],
                     ValidAudience = webApplicationBuilder.Configuration["JWT:ValidAudience"],
                     IssuerSigningKey = new Microsoft.IdentityModel.Tokens.SymmetricSecurityKey(System.Text.Encoding.UTF8.GetBytes(webApplicationBuilder.Configuration["JWT:AuthKey"])),
