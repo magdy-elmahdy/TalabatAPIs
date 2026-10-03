@@ -14,3 +14,35 @@ F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net
 F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\refint\Talabats.Application.dll
 F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.pdb
 F:\Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\ref\Talabats.Application.dll
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.deps.json
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.dll
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.pdb
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.dll
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.pdb
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.AssemblyReference.cache
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfoInputs.cache
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfo.cs
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.CoreCompileInputs.cache
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.sourcelink.json
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.E84F1B9A.Up2Date
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.dll
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\refint\Talabats.Application.dll
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.pdb
+D:\Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\ref\Talabats.Application.dll
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.deps.json
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.dll
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.pdb
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.dll
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.pdb
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.AssemblyReference.cache
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.GeneratedMSBuildEditorConfig.editorconfig
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfoInputs.cache
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfo.cs
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.CoreCompileInputs.cache
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.sourcelink.json
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.E84F1B9A.Up2Date
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.dll
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\refint\Talabats.Application.dll
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.pdb
+D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\ref\Talabats.Application.dll

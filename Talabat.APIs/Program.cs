@@ -65,6 +65,7 @@ namespace Talabat.APIs
             webApplicationBuilder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<ApplicationIdentityDbContext>();
             webApplicationBuilder.Services.AddAuthentication().AddJwtBearer("Bearer",options =>
             {
+                
                 options.TokenValidationParameters = new Microsoft.IdentityModel.Tokens.TokenValidationParameters()
                 {
                     ValidateIssuer = true,

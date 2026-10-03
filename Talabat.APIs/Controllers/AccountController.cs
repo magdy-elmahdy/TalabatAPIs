@@ -83,15 +83,14 @@ namespace Talabat.APIs.Controllers
             });
         }
 
-        [Authorize(AuthenticationSchemes = ("Bearer"))]
+        [Authorize(AuthenticationSchemes =("Bearer"))]
         [HttpGet("address")]
-        public async Task<ActionResult<AddressDto>> GetUserAddress()
+        public async Task<ActionResult<Address>> GetCurrentUserAddress()
         {
             var email = User.FindFirstValue(ClaimTypes.Email);
-            //var user = await _userManager.FindByEmailAsync(email);
-            //var user = await _userManager.Users.Include(u => u.Address).SingleOrDefaultAsync(u => u.Email == email);
-            var user = await _userManager.Users.Include(u => u.Address).FirstOrDefaultAsync(u => u.Email == email);
-            return Ok(_mapper.Map<AddressDto>(user.Address));
+            var user =await _userManager.Users.Include(U=>U.Address).FirstOrDefaultAsync(U=>U.Email==email);
+            return Ok(user);
+
         }
 
     }

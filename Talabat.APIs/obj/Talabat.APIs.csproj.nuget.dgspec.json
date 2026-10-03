@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj": {}
+    "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj": {}
   },
   "projects": {
-    "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj": {
+    "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
+        "projectUniqueName": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
         "projectName": "Talabat.APIs",
-        "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
-        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
-        "outputPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\obj\\",
+        "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\Talabat.APIs.csproj",
+        "packagesPath": "C:\\Users\\Giga\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.APIs\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -30,14 +30,13 @@
         },
         "frameworks": {
           "net6.0": {
-            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj": {
-                "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj"
+              "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj": {
+                "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj"
               },
-              "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj": {
-                "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj"
+              "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj": {
+                "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj"
               }
             }
           }
@@ -52,11 +51,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
-          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "AutoMapper.Extensions.Microsoft.DependencyInjection": {
@@ -93,24 +91,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
+    "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
+        "projectUniqueName": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
         "projectName": "Talabat.Core",
-        "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
-        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
-        "outputPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\obj\\",
+        "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj",
+        "packagesPath": "C:\\Users\\Giga\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -123,7 +121,6 @@
         },
         "frameworks": {
           "net6.0": {
-            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {}
           }
@@ -138,11 +135,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
-          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
@@ -170,24 +166,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj": {
+    "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj",
+        "projectUniqueName": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj",
         "projectName": "Talabat.Repository",
-        "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj",
-        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
-        "outputPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Repository\\obj\\",
+        "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\Talabat.Repository.csproj",
+        "packagesPath": "C:\\Users\\Giga\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Repository\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -200,11 +196,10 @@
         },
         "frameworks": {
           "net6.0": {
-            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
-                "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj"
+              "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
+                "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj"
               }
             }
           }
@@ -219,11 +214,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
-          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.EntityFrameworkCore.SqlServer": {
@@ -247,24 +241,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     },
-    "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj": {
+    "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj",
+        "projectUniqueName": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj",
         "projectName": "Talabats.Application",
-        "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj",
-        "packagesPath": "C:\\Users\\ok\\.nuget\\packages\\",
-        "outputPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabats.Application\\obj\\",
+        "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\Talabats.Application.csproj",
+        "packagesPath": "C:\\Users\\Giga\\.nuget\\packages\\",
+        "outputPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabats.Application\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\ok\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Giga\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -277,11 +271,10 @@
         },
         "frameworks": {
           "net6.0": {
-            "framework": "net6.0",
             "targetAlias": "net6.0",
             "projectReferences": {
-              "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
-                "projectPath": "F:\\Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj"
+              "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj": {
+                "projectPath": "D:\\Back-End Route\\09 WebApi\\TalabatAPIs\\Talabat.Core\\Talabat.Core.csproj"
               }
             }
           }
@@ -296,11 +289,10 @@
           "auditLevel": "low",
           "auditMode": "direct"
         },
-        "SdkAnalysisLevel": "10.0.300"
+        "SdkAnalysisLevel": "9.0.300"
       },
       "frameworks": {
         "net6.0": {
-          "framework": "net6.0",
           "targetAlias": "net6.0",
           "dependencies": {
             "Microsoft.AspNetCore.Authentication.JwtBearer": {
@@ -324,7 +316,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\10.0.302\\RuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.308\\RuntimeIdentifierGraph.json"
         }
       }
     }
