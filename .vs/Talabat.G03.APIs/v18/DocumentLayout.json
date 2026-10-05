@@ -1,0 +1,133 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\helprer\\mappigprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\helprer\\mappigprofiles.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\dtos\\addressdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.core\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\entities\\address.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{5D387AFD-3F9F-43C4-862E-21D5CB851DA7}|Talabat.APIs\\Talabat.APIs.csproj|solutionrelative:talabat.apis\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|f:\\programs\\bank-end route\\09 asp.net core web apis\\talabatapis\\talabat.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{00E3A755-E002-4241-874C-526EE218E94E}|Talabat.Core\\Talabat.Core.csproj|solutionrelative:talabat.core\\entities\\applicationuser.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeDocumentMoniker": "Talabat.APIs\\appsettings.json",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\appsettings.json",
+              "RelativeToolTip": "Talabat.APIs\\appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAAYAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2026-10-05T12:58:13.366Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Mappigprofiles.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Helprer\\Mappigprofiles.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Helprer\\Mappigprofiles.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Helprer\\Mappigprofiles.cs",
+              "RelativeToolTip": "Talabat.APIs\\Helprer\\Mappigprofiles.cs",
+              "ViewState": "AgIAAAYAAAAAAAAAAAAqwBcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T15:06:41.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAmwFUAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-04-01T06:47:37.141Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AddressDto.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Dtos\\AddressDto.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Dtos\\AddressDto.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Dtos\\AddressDto.cs",
+              "RelativeToolTip": "Talabat.APIs\\Dtos\\AddressDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-07-29T15:02:53.138Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ApplicationUser.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\ApplicationUser.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Entities\\ApplicationUser.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\ApplicationUser.cs",
+              "RelativeToolTip": "Talabat.Core\\Entities\\ApplicationUser.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T15:42:11.843Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Program.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Program.cs",
+              "RelativeDocumentMoniker": "Talabat.APIs\\Program.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Program.cs",
+              "RelativeToolTip": "Talabat.APIs\\Program.cs",
+              "ViewState": "AgIAACgAAAAAAAAAAAAgwEgAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-26T21:10:26.246Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Address.cs",
+              "DocumentMoniker": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\Address.cs",
+              "RelativeDocumentMoniker": "Talabat.Core\\Entities\\Address.cs",
+              "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.Core\\Entities\\Address.cs",
+              "RelativeToolTip": "Talabat.Core\\Entities\\Address.cs",
+              "ViewState": "AgIAAAMAAAAAAAAAAAAqwA8AAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2026-01-25T15:43:53.924Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
