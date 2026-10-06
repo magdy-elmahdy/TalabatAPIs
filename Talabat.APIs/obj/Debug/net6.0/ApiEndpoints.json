@@ -41,6 +41,32 @@
   },
   {
     "ContainingType": "Talabat.APIs.Controllers.AccountController",
+    "Method": "UpdateUserAddress",
+    "RelativePath": "api/Account/address",
+    "HttpMethod": "PUT",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "addressDto",
+        "Type": "Talabat.APIs.Dtos.AddressDto",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": [
+      {
+        "Type": "Talabat.APIs.Dtos.AddressDto",
+        "MediaTypes": [
+          "text/plain",
+          "application/json",
+          "text/json"
+        ],
+        "StatusCode": 200
+      }
+    ]
+  },
+  {
+    "ContainingType": "Talabat.APIs.Controllers.AccountController",
     "Method": "Login",
     "RelativePath": "api/Account/Login",
     "HttpMethod": "POST",
