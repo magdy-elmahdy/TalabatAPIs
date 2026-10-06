@@ -46,3 +46,19 @@ D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Ta
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\refint\Talabats.Application.dll
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.pdb
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\ref\Talabats.Application.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.deps.json
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabats.Application.pdb
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\bin\Debug\net6.0\Talabat.Core.pdb
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.AssemblyReference.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfoInputs.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.AssemblyInfo.cs
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.csproj.CoreCompileInputs.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.sourcelink.json
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.E84F1B9A.Up2Date
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\refint\Talabats.Application.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\Talabats.Application.pdb
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabats.Application\obj\Debug\net6.0\ref\Talabats.Application.dll

@@ -110,3 +110,17 @@ D:\Back-End Route\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Co
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
 D:\Back-End Route\09 WebApi\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.deps.json
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\bin\Debug\net6.0\Talabat.Core.pdb
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.AssemblyReference.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.GeneratedMSBuildEditorConfig.editorconfig
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfoInputs.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.AssemblyInfo.cs
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.csproj.CoreCompileInputs.cache
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.sourcelink.json
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\refint\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat.Core.pdb
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\ref\Talabat.Core.dll
+F:\Programs\Bank-End Route\09 ASP.NET Core Web APIs\TalabatAPIs\Talabat.Core\obj\Debug\net6.0\Talabat..EF9EA6A7.Up2Date
