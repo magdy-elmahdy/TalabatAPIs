@@ -36,7 +36,7 @@
               "RelativeDocumentMoniker": "Talabat.APIs\\Controllers\\AccountController.cs",
               "ToolTip": "F:\\Programs\\Bank-End Route\\09 ASP.NET Core Web APIs\\TalabatAPIs\\Talabat.APIs\\Controllers\\AccountController.cs",
               "RelativeToolTip": "Talabat.APIs\\Controllers\\AccountController.cs",
-              "ViewState": "AgIAAFEAAAAAAAAAAAAiwF0AAAAJAAAAAAAAAA==",
+              "ViewState": "AgIAACwAAAAAAAAAAADwvzYAAAAsAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2026-10-06T15:06:22.617Z",
               "EditorCaption": ""
@@ -51,8 +51,7 @@
               "RelativeToolTip": "Talabat.APIs\\Dtos\\AddressDto.cs",
               "ViewState": "AgIAAAEAAAAAAAAAAAAwwA0AAAAxAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T15:26:55.591Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T15:26:55.591Z"
             },
             {
               "$type": "Document",
@@ -64,8 +63,7 @@
               "RelativeToolTip": "Talabat.APIs\\Helprer\\Mappigprofiles.cs",
               "ViewState": "AgIAAAIAAAAAAAAAAAAAAAoAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T15:30:33.831Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T15:30:33.831Z"
             },
             {
               "$type": "Document",
@@ -77,8 +75,7 @@
               "RelativeToolTip": "Talabat.Core\\Entities\\Address.cs",
               "ViewState": "AgIAAAgAAAAAAAAAAAAiwBEAAAA0AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2026-10-06T15:19:11.878Z",
-              "EditorCaption": ""
+              "WhenOpened": "2026-10-06T15:19:11.878Z"
             }
           ]
         }
