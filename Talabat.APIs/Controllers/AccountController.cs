@@ -98,16 +98,19 @@ namespace Talabat.APIs.Controllers
         [Authorize(AuthenticationSchemes = "Bearer")]
         [HttpPut("address")]
         public async Task<ActionResult<AddressDto>> UpdateUserAddress(AddressDto addressDto)
+        
         {
+            //var updatedAddress = _mapper.Map<Address>(addressDto);
             var email = User.FindFirstValue(ClaimTypes.Email);
-
             var user = await _userManager.Users
                 .Include(u => u.Address)
                 .FirstOrDefaultAsync(u => u.Email == email);
+            //updatedAddress.Id =user.Address.Id;
+            //user.Address = updatedAddress;
+            //_mapper.Map(addressDto, user.Address);
 
+            // Update the existing Address
             _mapper.Map(addressDto, user.Address);
-            
-
             var result = await _userManager.UpdateAsync(user);
 
             if (!result.Succeeded)
@@ -117,7 +120,7 @@ namespace Talabat.APIs.Controllers
                 );
             }
 
-            return Ok(_mapper.Map<AddressDto>(user.Address));
+            return Ok(addressDto);
         }
     }
 }

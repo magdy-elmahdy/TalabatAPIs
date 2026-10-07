@@ -668,6 +668,7 @@
       },
       "AddressDto": {
         "required": [
+          "city",
           "country",
           "firstName",
           "lastName",
@@ -684,6 +685,10 @@
             "type": "string"
           },
           "street": {
+            "minLength": 1,
+            "type": "string"
+          },
+          "city": {
             "minLength": 1,
             "type": "string"
           },
